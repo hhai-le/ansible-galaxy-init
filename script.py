@@ -20,8 +20,8 @@ if not isExist:
     #defaults,files,handlers,meta,tasks,templates,tests,vars
     for folder in folders:
         os.mkdir(os.path.join(path,folder))
-    main_folders = ["defaults","files","handlers","tasks","templates","vars"]
-    
+        
+    main_folders = ["defaults","handlers","tasks","vars"]
     template = environment.get_template("main.j2")
     for folder in main_folders:
         filename = os.path.join(path,folder,"main.yml")
