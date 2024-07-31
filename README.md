@@ -14,3 +14,11 @@ pyinstaller --add-data ".\src\templates:templates" --onefile .\src\script.py
 
 ![](image/image2.png)
 
+copy to anywhere you want:
+example: 
+![](image/image3.png)
+
+add the folder to environment:
+![](image/image4.png)
+
+![](image/image5.png)
